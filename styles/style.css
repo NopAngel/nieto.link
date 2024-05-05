@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+  background-color: #fff;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.content_frame{
+  width: 100%;
+  padding: 6px;
+  height:40vh;
+  font-size: 30px;
+}
+
+#js{
+  height: 60vh;
+  width: 830px;
+}
+
+.results_frame iframe{
+  width: 100%;
+  margin-left: 6px;
+  height: 47vh;
+  border: 0;
+  height: 100%;
+}
+
+svg{
+  position: absolute;
+  width: 40px;
+  z-index: 10;
+  transform: translateX(20px) translateY(80px);
+  opacity: 50%;
+}
